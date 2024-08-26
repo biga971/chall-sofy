@@ -1,0 +1,17 @@
+{
+  "name": "bot-sofy",
+  "version": "1.0.0",
+  "description": "botSofy",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "author": "BILBA Enrick",
+  "license": "ISC",
+  "dependencies": {
+    "cjs-module": "^1.5.0",
+    "puppeteer": "^21.6.0"
+  }
+}
