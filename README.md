@@ -37,6 +37,11 @@ cd ../web
 npm install
 npm start
 
+4. Installation de la BDD 
+
+docker pull mysql
+$ docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:tag
+
 Lancement des projets
 1. Lancer le bot de scraping
 Naviguez dans le dossier bot et lancez le script de scraping :
